@@ -14,7 +14,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="6239ea24c3
                                                            client_secret="d4c17019488349318a3776b72f60b2aa"))
 
 
-
+@st.cache
 def get_image(name,year):
     result = sp.search(q = 'name: {} year: {}'.format(name,year))
     if not result['tracks']['items']==[]:
