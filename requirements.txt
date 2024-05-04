@@ -4,4 +4,3 @@ pandas
 numpy
 requests
 Pillow
-io
