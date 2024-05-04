@@ -3,5 +3,5 @@ spotipy
 pandas
 numpy
 requests
-PIL
+Pillow
 io
