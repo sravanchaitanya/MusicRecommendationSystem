@@ -38,7 +38,7 @@ for i in range(0,100):
         container = st.container()
         containers.append(container)
         with container:
-            st.image(images[i])
+            #st.image(images[i])
             st.write(top100['name'][i])
             flag = st.button('Select',key=i)
             
