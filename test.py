@@ -8,7 +8,7 @@ import builtins
 from PIL import Image
 from io import BytesIO
 
-top100 = pd.read_csv('C:/Users/srava/Desktop/Final_Project/data/top100.csv')
+top100 = pd.read_csv('top100.csv')
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="6239ea24c3d64de2a09122ee3d157247",
                                                            client_secret="d4c17019488349318a3776b72f60b2aa"))
