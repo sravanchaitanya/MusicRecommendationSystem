@@ -1,6 +1,5 @@
 streamlit
 spotipy
-spotipy.oauth2
 pandas
 numpy
 requests
