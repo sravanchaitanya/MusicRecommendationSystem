@@ -113,7 +113,7 @@ def display_recommendation(songs,data):
 
 
 if 'initialized' not in st.session_state:
-    top100 = pd.read_csv('C:/Users/srava/Desktop/Final_Project/data/top100.csv')
+    top100 = pd.read_csv('top100.csv')
     st.session_state.top100 = top100
     st.session_state['curr_selection_list'] = list(top100['name'])
     print('yes')
@@ -148,7 +148,7 @@ if Recommend:
 if 'initialized' not in st.session_state:
     st.session_state['initialized'] = True
     
-    data = pd.read_csv("C:/Users/srava/Desktop/Final_Project/data/data.csv")
+    data = pd.read_csv("data.csv")
     st.session_state.data = data
     
     
