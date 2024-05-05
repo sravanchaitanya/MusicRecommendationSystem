@@ -118,6 +118,7 @@ if 'initialized' not in st.session_state:
     st.session_state['curr_selection_list'] = list(top100['name'])
     print('yes')
 
+st.title('Music Recommendation System')
 form = st.form(key = 'start',clear_on_submit = True)        
 selection = form.multiselect("Select the songs",st.session_state.curr_selection_list) 
 Recommend = form.form_submit_button('Recommend')
