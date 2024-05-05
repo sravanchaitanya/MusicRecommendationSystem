@@ -1,6 +1,9 @@
 streamlit
+sklearn
+scipy
 spotipy
 pandas
 numpy
+difflib
 requests
 Pillow
