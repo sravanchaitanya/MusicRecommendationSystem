@@ -144,7 +144,7 @@ if Recommend:
     st.session_state.curr_selection_list=lis
     st.session_state.recommended_songs = recommended_songs
     st.session_state['displayed'] = False
-    st.experimental_rerun()
+    st.rerun()
 
 if 'initialized' not in st.session_state:
     st.session_state['initialized'] = True
